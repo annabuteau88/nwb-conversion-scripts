@@ -20,7 +20,7 @@ def select_putative_training_nwbs(list_of_nwbs, doskip):
         return [list_of_nwbs[0]]
     num = len(list_of_nwbs)
     random.shuffle(list_of_nwbs)
-    return list_of_nwbs[:5]
+    return list_of_nwbs[:10]
 
 # Get the filenames for the timestamps.txt and dlc CSV
 input_folder = "putative/"
